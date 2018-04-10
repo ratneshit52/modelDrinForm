@@ -1,0 +1,11 @@
+<h1>Employee Name</h1>
+
+<ul>
+    <li *ngFor="let empD of empsDetail">{{ empD.name }}</li>
+</ul>
+
+
+<h1>Employee Full Details</h1>
+<ul>
+    <li *ngFor="let empD of empsDetail">Hi, I'm {{ empD.name }}, {{ empD.age }} yers old and leaving in {{ empD.place }}, and I love to work {{ empD.hobby }} </li>
+</ul>
